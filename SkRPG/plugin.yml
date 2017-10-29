@@ -1,0 +1,5 @@
+name: SkRPG
+author: LimeGlass
+main: me.limeglass.skrpg.SkRPG
+depend: [Skript, SkillAPI]
+version: 1.0.1

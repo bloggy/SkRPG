@@ -91,7 +91,7 @@ public class Register {
 		Skript.registerCondition(CondCanProfess.class, "SkillAPI %player% can profess");
 		Skript.registerCondition(CondSkillbarIsEnabled.class, "SkillAPI %player% has skillbar enabled");
 		Skript.registerCondition(CondSkillbarIsSetup.class, "SkillAPI %player% skillbar is setup");
-		Skript.registerCondition(CondHasSkill.class, "SkillAPI %player% has skill %string%");
+		Skript.registerCondition(CondHasSkill.class, "SkillAPI %player% has skill %string% [at level %integer%]");
 	}
 
 	private static void Effects() {
